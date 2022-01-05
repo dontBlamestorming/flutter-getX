@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   get:
+  get_storage:
 
   cupertino_icons: ^1.0.2
 
