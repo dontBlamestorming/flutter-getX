@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:getx/controllers/controllers.dart';
+import 'package:getx/constants/constants.dart';
 import 'package:get/get.dart';
 
 void main() => runApp(MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       themeMode: ThemeMode.system,
       initialRoute: "/",
-      // getpages: AppRoutes.routes,
+      getPages: AppRoutes.routes,
     );
   }
 }
